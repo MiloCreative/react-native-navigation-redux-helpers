@@ -42,7 +42,7 @@ module.exports = cardStackReducer(initialState);
 Use this reducer in NavigationCardStack in your component
 
 ```javascript
-import { NavigationExperimental } from 'react-native';
+import * as NavigationExperimental from 'navigation-experimental';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { actions } from 'react-native-navigation-redux-helpers';
@@ -198,4 +198,3 @@ export default connect(mapStateToProps, mapDispatchToProps)(ApplicationTabs);
 
 - [Example using RN experimental navigation with Redux](https://github.com/thebakeryio/react-native-complex-nav)
 - [TodoMVC React Native](https://github.com/thebakeryio/todomvc-react-native)
-
